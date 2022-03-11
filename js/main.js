@@ -15,7 +15,7 @@ clickBtn.onclick = () => {
     container.style.display = 'none'
     setTimeout(() => {
         showModal.classList.add('open')
-         setTimeout(() => {
+        setTimeout(() => {
             showHeading.innerHTML = 'Mày Là Một Con Chó'
         }, 5000)
 
@@ -45,7 +45,7 @@ if (clickBtn == successBtn || clickBtn == errorBtn) {
 
 setTimeout(() => {
     clearBtn.classList.add('support')
-}, 10000)
+}, 9000)
 clearBtn.onclick = () => {
     showModal.classList.remove('open')
     container.style.display = 'flex'
