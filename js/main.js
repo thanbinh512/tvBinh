@@ -15,12 +15,12 @@ clickBtn.onclick = () => {
     container.style.display = 'none'
     setTimeout(() => {
         showModal.classList.add('open')
-        setInterval(() => {
-            showHeading.join('HTML')
-        }, 1000)
+         setTimeout(() => {
+            showHeading.innerHTML = 'Mày Là Một Con Chó'
+        }, 5000)
 
 
-    }, )
+    }, 2000)
 }
 
 errorBtn.onmouseover = () => {
@@ -45,7 +45,7 @@ if (clickBtn == successBtn || clickBtn == errorBtn) {
 
 setTimeout(() => {
     clearBtn.classList.add('support')
-}, 9000)
+}, 10000)
 clearBtn.onclick = () => {
     showModal.classList.remove('open')
     container.style.display = 'flex'
